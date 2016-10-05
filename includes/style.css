@@ -23,6 +23,8 @@
 	margin-left:-80px;
 }*/
 
-.navbar-brand {
-	background-color:yellow;
+.logo img {
+	background-color:red;
+	text-align:left;
+
 }
