@@ -1,3 +1,5 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -27,4 +29,15 @@
 	background-color:red;
 	text-align:left;
 
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ ABOUT DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
 }
