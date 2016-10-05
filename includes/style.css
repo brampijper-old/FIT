@@ -1,0 +1,28 @@
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+/*.logo img {
+	background-color: red;
+	width:auto;
+	margin-left:-80px;
+}*/
+
+.navbar-brand {
+	background-color:yellow;
+}
