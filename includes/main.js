@@ -1,6 +1,11 @@
 $(document).ready(function() {
     $("#truck").animate({marginLeft: "+=50%"}, 3000);
     // $("#truck").animate({marginLeft: "-=700"}, 1000);
+
+    $(".color1").animate({'background-color': '#CD5C5C'}, 5000)
+
+
+
 });
 
 function myMap() {
