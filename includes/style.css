@@ -1,3 +1,5 @@
+/*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -28,3 +30,19 @@
 	text-align:left;
 
 }
+
+/*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ IMG DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
+
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+/*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
