@@ -20,14 +20,14 @@
 }
 
 /*.logo img {
-	background-color: red;
-	width:auto;
-	margin-left:-80px;
+    background-color: red;
+    width:auto;
+    margin-left:-80px;
 }*/
 
 .logo img {
-	background-color:red;
-	text-align:left;
+    background-color:red;
+    text-align:left;
 
 }
 
@@ -49,4 +49,28 @@
 margin-left: 110px;
 }
 
-/*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
+/*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ BODY ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
+
+main{
+    min-height: 1300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
