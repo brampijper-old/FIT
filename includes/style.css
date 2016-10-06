@@ -17,14 +17,56 @@
     color: #ffffff;
 }
 
-/*.logo img {
-	background-color: red;
-	width:auto;
-	margin-left:-80px;
-}*/
-
-.logo img {
-	background-color:red;
-	text-align:left;
-
+.container-banner {
+	position:relative;
+	width:100%;
+	background-color:#B7E2E8;
 }
+
+#truck {
+	position:relative;
+	width:40%;
+}
+
+
+
+
+/*
+.collage-cell-big{
+    height: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.collage-cell-small{
+    height: 189px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+}
+
+.col-xs-3 img {
+	overflow: hidden;
+    width: 100%;
+}
+
+.col-xs-6 img {
+	overflow: hidden;
+    width: 60%;
+    margin-top:100px;
+    margin-left:100px;
+}
+
+.col-xs-6 {
+	background-color:#F9E4A6;
+}
+
+.col-xs-3 {
+	background-color:#ECF0F1;
+}
+
+#ice2 {
+	overflow: hidden;
+    width: 100%;
+}
+*/
