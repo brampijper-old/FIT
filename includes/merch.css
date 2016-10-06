@@ -45,14 +45,11 @@
     border-color: #f1f1f1;
 }
 
-.row-pics {
-margin-left: 110px;
-}
-
 /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ BODY ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
 
-main{
-    min-height: 1300px;
+main {
+    height: auto;
+    margin-bottom: 130px;
 }
 
 /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ EXTRA ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
