@@ -46,8 +46,13 @@
 
 .panel {
     border: 1px solid #f4511e; 
-    border-radius:0;
+    border-radius:8;
     transition: box-shadow 0.5s;
+
+}
+
+.cb {
+    align-items: center;
 }
 
 .panel:hover {
@@ -89,3 +94,7 @@
     background-color: #f4511e;
     color: #fff;
 }
+
+
+
+
