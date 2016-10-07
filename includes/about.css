@@ -118,6 +118,97 @@
 
 
 #locator {
+    
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 14;
+}
+
+#locator1 {
+    
+    position: absolute;
+    visibility: visible;
+    left: 250px;
+    top: 730px;
+    z-index: 13;
+}
+#locator2 {
+    position: absolute;
+    visibility: visible;
+    left: 390px;
+    top: 880px;
+    z-index: 88;
+}
+#locator3 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+
+#locator4 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+#locator5 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+#locator6 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+#locator7 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+#locator8 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+#locator9 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+#locator10 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+
+
+#locator11 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+
+#locator12 {
     position: absolute;
     visibility: visible;
     left: 110px;
@@ -127,3 +218,10 @@
 
 
 
+#locator13 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
