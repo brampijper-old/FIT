@@ -53,47 +53,47 @@
 		</div>
 
 		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ HISTORY DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-		<div id="elem0" class="toBeFaded">
-			<img src="./pic/steps.gif" style="max-width: 288px;"><br>
+		<div id="elem0" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem1" class="toBeFaded">
-			<img src="./pic/steps.gif" style="max-width: 288px;"><br>
+		<div id="elem1" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem2" class="toBeFaded">
-			<img src="./pic/steps.gif" style="max-width: 288px;"><br>
+		<div id="elem2" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem3" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem3" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem4" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem4" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem5" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem5" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem6" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem6" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem7" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem7" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem8" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem8" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem9" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem9" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem10" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem10" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem11" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem11" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem12" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem12" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
-		<div id="elem13" class="toBeFaded">
-			<img src="./pic/steps.gif"><br>
+		<div id="elem13" class=".slideanim">
+			<img src="./pic/steps.gif" style="max-width: 80%;"><br>
 		</div>
 		<div class="container-fluid">
 			<div class="row">
@@ -264,7 +264,16 @@
 				<script type="text/javascript" src="includes/bootstrap.min.js"></script>
 				<script type="text/javascript" src="includes/main.js"></script>
 				<script>
-				
+					$(window).scroll(function() {
+						$(".slideanim").each(function(){
+							var pos = $(this).offset().top;
+
+							var winTop = $(window).scrollTop();
+							if (pos < winTop + 600) {
+								$(this).addClass("slide");
+							}
+						});
+					});
 				</script>
 			</body>
 			</html>
