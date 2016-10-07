@@ -56,43 +56,43 @@
 		<div id="elem0" class="toBeFaded">
 			<img src="./pic/steps.gif" style="max-width: 288px;"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem1" class="toBeFaded">
 			<img src="./pic/steps.gif" style="max-width: 288px;"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem2" class="toBeFaded">
 			<img src="./pic/steps.gif" style="max-width: 288px;"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem3" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem4" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem5" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem6" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem7" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem8" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem9" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem10" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem11" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem12" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
-		<div id="elem0" class="toBeFaded">
+		<div id="elem13" class="toBeFaded">
 			<img src="./pic/steps.gif"><br>
 		</div>
 		<div class="container-fluid">
@@ -264,36 +264,7 @@
 				<script type="text/javascript" src="includes/bootstrap.min.js"></script>
 				<script type="text/javascript" src="includes/main.js"></script>
 				<script>
-				$(function (){
-      
-  var yourFade = 1, // the amount of time in seconds that the elements will fade in fade out
-  yourDelay = 2, // the amount of time in seconds that there will be a delay between the fade ins and fade outs
-  fadeTime = yourFade * 1000, //convert fade seconds to milliseconds (1000)
-  delayTime = yourDelay * 1000, // convert delay seconds to milliseconds (2000)
-  totalTime = fadeTime   delayTime, //3000 milliseconds...needed for all those delays we talked about
-  allElems, // find out exactly how many page elements have the 'toBeFaded' class (4)
-  elemNoFade, // Will help us find the last element represent the last element (3)
-  i,
-  fadingElem;
-    
-  for (i = 0, allElems = $('.toBeFaded').length, elemNoFade = allElems - 1; i < allElems; i = 1) {
-    fadingElem = "#elem" + i;
-    if (i === 0) {  
-      $(fadingElem).fadeIn(fadeTime).delay(delayTime).fadeOut(fadeTime);
-    } else if (i === elemNoFade) {
-      $(fadingElem).delay(totalTime * i).fadeIn(fadeTime);
-    } else {
-      $(fadingElem).delay(totalTime * i).fadeIn(fadeTime).delay(delayTime).fadeOut(fadeTime);
-    }
-  }
-});
-					var dots = window.setInterval( function() {
-						var wait = document.getElementById("wait");
-						if ( Math.random() < .7 )
-							wait.innerHTML += ".";
-						else
-							wait.innerHTML = wait.innerHTML.substring(1, wait.innerHTML.length);
-					}, 100);
+				
 				</script>
 			</body>
 			</html>

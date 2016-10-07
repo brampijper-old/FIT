@@ -26,13 +26,13 @@
     }*/
 
     .logo img {
-       background-color:red;
-       text-align:left;
+     background-color:red;
+     text-align:left;
 
-   }
+ }
 
-   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ ABOUT DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-   .logo {
+ /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ ABOUT DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+ .logo {
     font-size: 200px;
 }
 @media screen and (max-width: 768px) {
@@ -116,23 +116,16 @@
     background-position: relative;
     }*/
 
-    .toBeFaded {
-      display: none;
-      position:absolute;
-  }
-
-  @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 14;
-    }
+  #elem0 {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 14;
 }
 
 
-#locator1 {
+#elem1 {
     max-width: 100%;
     position: absolute;
     visibility: visible;
@@ -143,7 +136,7 @@
 }
 
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator2 {
+    #elem2 {
         position: absolute;
         visibility: visible;
         left: 390px;
@@ -152,7 +145,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator3 {
+    #elem3 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -161,7 +154,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator4 {
+    #elem4 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -170,7 +163,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator5 {
+    #elem5 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -179,7 +172,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator6 {
+    #elem6 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -188,7 +181,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator7 {
+    #elem7 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -197,7 +190,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator8 {
+    #elem8 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -206,7 +199,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator9 {
+    #elem9 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -215,7 +208,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator10 {
+    #elem10 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -224,7 +217,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator11 {
+    #elem11 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -233,7 +226,7 @@
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator12 {
+    #elem12 {
         position: absolute;
         visibility: visible;
         left: 110px;
@@ -243,10 +236,46 @@
 }
 
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #locator13 {
+    #elem13 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
         z-index: 88;
     }
+
+/*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ SLIDE IN EFFECT ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
+
+    .slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
