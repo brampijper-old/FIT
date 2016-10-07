@@ -23,16 +23,16 @@
 	background-color: red;
 	width:auto;
 	margin-left:-80px;
-}*/
+    }*/
 
-.logo img {
-	background-color:red;
-	text-align:left;
+    .logo img {
+       background-color:red;
+       text-align:left;
 
-}
+   }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ ABOUT DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.logo {
+   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ ABOUT DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+   .logo {
     font-size: 200px;
 }
 @media screen and (max-width: 768px) {
@@ -114,114 +114,139 @@
     background-size: 100%;
     background-repeat: auto;
     background-position: relative;
-}*/
+    }*/
 
+    .toBeFaded {
+      display: none;
+      position:absolute;
+  }
 
-#locator {
-    
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 14;
+  @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 14;
+    }
 }
 
+
 #locator1 {
-    
+    max-width: 100%;
     position: absolute;
     visibility: visible;
     left: 250px;
     top: 730px;
     z-index: 13;
 }
-#locator2 {
-    position: absolute;
-    visibility: visible;
-    left: 390px;
-    top: 880px;
-    z-index: 88;
-}
-#locator3 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
 }
 
-#locator4 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator2 {
+        position: absolute;
+        visibility: visible;
+        left: 390px;
+        top: 880px;
+        z-index: 88;
+    }
 }
-#locator5 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator3 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
 }
-#locator6 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator4 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
 }
-#locator7 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator5 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
 }
-#locator8 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator6 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
 }
-#locator9 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator7 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
 }
-#locator10 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator8 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator9 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator10 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator11 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator12 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
 }
 
-
-#locator11 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
-}
-
-#locator12 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
-}
-
-
-
-#locator13 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 88;
-}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #locator13 {
+        position: absolute;
+        visibility: visible;
+        left: 110px;
+        top: 550px;
+        z-index: 88;
+    }
