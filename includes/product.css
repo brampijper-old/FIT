@@ -54,12 +54,34 @@ h3 {
 
 
 .service {
-	height: 500px;
+	height: auto;
 	background-color:#f2f2f2; 
 	margin-top:50px;
 }
 
+.serviceBox {
+	margin: 0 auto;
+}
 
+.events {
+	margin-top:25px;
+}
+
+.events img {
+	margin-top:25px;
+	margin-bottom:30px;
+	margin-left:5px;
+}
+
+.events h3 {
+	margin-top:25px;
+	margin-bottom:20px;
+}
+
+.events p {
+	margin-left: 10px;
+	margin-right:10px;
+}
 
 /*.color1 h2 {
 	  display: flex;
