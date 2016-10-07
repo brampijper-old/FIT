@@ -1,6 +1,27 @@
 $(document).ready(function() {
+    $("#firstLine").hide();
+    $("#secondLine").hide();
+    $("#thirdLine").hide();
+
+
     $("#truck").animate({marginLeft: "+=50%"}, 3000);
-    // $("#truck").animate({marginLeft: "-=700"}, 1000);
+
+    setTimeout(function() {
+        $("#firstLine").slideDown('slow');
+        }, 3000)
+
+      setTimeout(function() {
+        $("#secondLine").slideDown('slow');
+        }, 4500)
+
+            setTimeout(function() {
+        $("#thirdLine").slideDown('slow');
+        }, 6500)
+
+  
+
+
+
 });
 
 function myMap() {
