@@ -1,10 +1,63 @@
 $(document).ready(function() {
-    $("#truck").animate({marginLeft: "+=50%"}, 3000);
-    // $("#truck").animate({marginLeft: "-=700"}, 1000);
+    $("#truck").animate({marginLeft: "+=50%"}, speed);
+    // $("#truck").animate({marginLeft: "-=700"}, 1000)
 
-    $(".color1").animate({'background-color': '#CD5C5C'}, 5000)
+    var yellow = $(".color1")
+    var red = $(".color2")
+    var green = $(".color3")
+    var speed = 2000;
 
+    function animate1 () {
+    	$(".fruits").text("Mango")
+    	$(yellow).animate({'background-color': '#FBDB0C'}, speed, function(){ 
+    		$(".fruits").text("Forest Fruits");
+    				$(yellow).animate({'background-color': '#6666cc'}, speed, function(){  //fruit of the forest
+    					$(".fruits").text("Lemon");
+    						$(yellow).animate({'background-color': '#B0FC23'}, speed, function(){ //lemon
+    							$(".fruits").text("Strawberry");
+    								$(yellow).animate({'background-color': '#ff4d4d'}, speed, function(){ //strawberry
+    									$(".fruits").text("Orange");
+    										$(yellow).animate({'background-color': '#FFA500'}, speed, function(){ //orange
+    											animate1();
+    										});
+    									}); 
+    							}); 
+    					}); 
+    			});
+    }
+    animate1(); 
 
+    // function animate2 () {
+
+    // 	$(red).animate({'background-color': '#ff4d4d'}, speed, function(){
+    // 		$(red).animate({'background-color': '#cc0000'}, speed, function(){
+    // 			$(red).animate({'background-color': '#ff7f7f'}, speed, function(){
+    // 				$(red).animate({'background-color': '#b20000'}, speed, function(){
+    // 					$(red).animate({'background-color': '#ff3232'}, speed, function(){
+    // 						animate2();
+    // 					});
+    // 				}); 
+    // 			}); 
+    // 		}); 
+    // 	});
+    // }
+    // animate2(); 
+
+    // function animate3 () {
+
+    // 	$(green).animate({'background-color': '#B0FC23'}, speed, function(){
+    // 		$(green).animate({'background-color': '#C3F42E'}, speed, function(){
+    // 			$(green).animate({'background-color': '#1e8133'}, speed, function(){
+    // 				$(green).animate({'background-color': '#45de07'}, speed, function(){
+    // 					$(green).animate({'background-color': '#73D77E'}, speed, function(){
+    // 						animate3();
+    // 					});
+    // 				}); 
+    // 			}); 
+    // 		}); 
+    // 	});
+    // }
+    // animate3(); 
 
 });
 

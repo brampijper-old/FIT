@@ -31,30 +31,54 @@ main {
 /*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ FLAVOR CONTENT ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
 
 h3 {
-	padding-bottom: 40px;
-	padding-top:30px;
-}
-
-.colorRow {
-	margin-top:40px;
+	/*padding-bottom: 40px;*/
 }
 
 .color1 {
-	background-color:yellow;
-	height:300px;
+	background-color:white;
+	height:450px;
 }
 
-.color2 {
-	background-color:red;
+
+.fruits {
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+
+}
+
+#flTitle {
+	opacity: 0.8;
+}
+/*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ SERVICE ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+
+
+.service {
+	height: 500px;
+	background-color:#f2f2f2; 
+	margin-top:50px;
+}
+
+
+
+/*.color1 h2 {
+	  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}*/
+
+/*.color2 {
+	background-color:white;
 	height:300px;
 
 }
 
 .color3 {
-	background-color:cyan;
+	background-color:white;
 	height:300px;
 }
-
+*/
 
 /*.flavors {
 	background-color:grey;
@@ -98,4 +122,4 @@ h3 {
 .mangoBG {
 	background-color: #febb16;
 	height:400px;
-}*/
+}
