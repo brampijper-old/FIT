@@ -8,31 +8,39 @@ $(document).ready(function() {
 
     setTimeout(function() {
         $("#firstLine").slideDown('slow');
-        }, 3000)
+    }, 3000)
 
-      setTimeout(function() {
+    setTimeout(function() {
         $("#secondLine").slideDown('slow');
-        }, 4500)
+    }, 4500)
 
-            setTimeout(function() {
+    setTimeout(function() {
         $("#thirdLine").slideDown('slow');
-        }, 6500)
-
-  
-
-
+    }, 6500)
 
 });
+
+
+//Function To Display Popup
+function div_show() {
+document.getElementById('abc').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide(){
+document.getElementById('abc').style.display = "none";
+}
+
+
 
 function myMap() {
   var mapCanvas = document.getElementById("map");
   var mapOptions = {
     center: new google.maps.LatLng(52.343824, 4.850269), 
     zoom: 14
-  }
-  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+var map = new google.maps.Map(mapCanvas, mapOptions);
 
-  addMaker(amsterdam, map); 
+addMaker(amsterdam, map); 
 }
 
 function addMaker (location, map) {
