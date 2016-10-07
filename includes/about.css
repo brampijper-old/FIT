@@ -98,8 +98,12 @@
 /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ BODY ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
 
 main {
-    margin-bottom: 130px;
+    margin-bottom: 60px;
     height: auto;
+    background-image: url(../pic/nut86.png);
+    background-size: 100%;
+    background-repeat: auto;
+    background-position: relative;
 }
 
 
