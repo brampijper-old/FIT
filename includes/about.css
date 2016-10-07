@@ -117,5 +117,13 @@
 }*/
 
 
+#locator {
+    position: absolute;
+    visibility: visible;
+    left: 110px;
+    top: 550px;
+    z-index: 88;
+}
+
 
 
