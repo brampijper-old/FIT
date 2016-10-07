@@ -116,24 +116,23 @@
     background-position: relative;
     }*/
 
-  #elem0 {
-    position: absolute;
-    visibility: visible;
-    left: 110px;
-    top: 550px;
-    z-index: 14;
-}
+    #elem0 {
+        position: absolute;
+        visibility: visible;
+        left: 150px;
+        top: 600px;
+        z-index: 14;
+    }
 
 
-#elem1 {
-    max-width: 100%;
-    position: absolute;
-    visibility: visible;
-    left: 250px;
-    top: 730px;
-    z-index: 13;
-}
-}
+    #elem1 {
+        position: absolute;
+        visibility: visible;
+        left: 250px;
+        top: 730px;
+        z-index: 13;
+    }
+
 
 
     #elem2 {
@@ -141,99 +140,99 @@
         visibility: visible;
         left: 390px;
         top: 880px;
-        z-index: 88;
+        z-index: 12;
+
     }
-}
 
     #elem3 {
         position: absolute;
         visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 88;
+        left: 500px;
+        top: 1000px;
+        z-index: 11;
+
     }
-}
 
     #elem4 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 10;
     }
-}
+
 
     #elem5 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 9;
+
     }
-}
 
     #elem6 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 8; 
+
     }
-}
 
     #elem7 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 7;
     }
-}
+    
 
     #elem8 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 6;
+        
     }
-}
 
     #elem9 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 5;
+
     }
-}
 
     #elem10 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 4;
     }
-}
+    
 
     #elem11 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 3;
+
     }
-}
 
     #elem12 {
         position: absolute;
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 2;
     }
-}
+    
 
 
     #elem13 {
@@ -241,41 +240,41 @@
         visibility: visible;
         left: 110px;
         top: 550px;
-        z-index: 88;
+        z-index: 1;
     }
 
-/*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ SLIDE IN EFFECT ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
+    /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ SLIDE IN EFFECT ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
 
     .slideanim {visibility:hidden;}
-.slide {
-    /* The name of the animation */
-    animation-name: slide;
-    -webkit-animation-name: slide; 
-    /* The duration of the animation */
-    animation-duration: 1s; 
-    -webkit-animation-duration: 1s;
-    /* Make the element visible */
-    visibility: visible; 
-}
-
-/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
-@keyframes slide {
-    0% {
-        opacity: 0;
-        transform: translateY(70%);
-    } 
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-    } 
-}
-@-webkit-keyframes slide {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(70%);
-    } 
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
+    .slide {
+        /* The name of the animation */
+        animation-name: slide;
+        -webkit-animation-name: slide; 
+        /* The duration of the animation */
+        animation-duration: 1s; 
+        -webkit-animation-duration: 1s;
+        /* Make the element visible */
+        visibility: visible; 
     }
-}
+
+    /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+    @keyframes slide {
+        0% {
+            opacity: 0;
+            transform: translateY(70%);
+        } 
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        } 
+    }
+    @-webkit-keyframes slide {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(70%);
+        } 
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0%);
+        }
+    }
