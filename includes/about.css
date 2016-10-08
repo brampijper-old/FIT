@@ -45,17 +45,17 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ PRICING DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .logo-small {
-    color: #a3a3c2;
+    color: #ccddff;
     font-size: 50px;
 }
 
 .logo {
-    color: #a3a3c2;
+    color: #ccddff;
     font-size: 200px;
 }
 
 .panel {
-    border: 1px solid #f4511e; 
+    border: 1px solid #ccddff; 
     border-radius:8;
     transition: box-shadow 0.5s;
 
@@ -70,14 +70,14 @@
 }
 
 .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+    border: 1px solid #ccddff;
     background-color: #fff !important;
-    color: #f4511e;
+    color: #ccddff;
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: #f4511e !important;
+    background-color: #ccddff !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -101,20 +101,16 @@
 
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: #ccddff;
     color: #fff;
 }
 
 /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ BODY ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
 
-/*main {
+main {
     margin-bottom: 60px;
     height: auto;
-    background-image: url(../pic/nut86.png);
-    background-size: 100%;
-    background-repeat: auto;
-    background-position: relative;
-    }*/
+    }
 
     #elem0 {
         position: absolute;
@@ -124,124 +120,6 @@
         z-index: 14;
     }
 
-
-    #elem1 {
-        position: absolute;
-        visibility: visible;
-        left: 250px;
-        top: 730px;
-        z-index: 13;
-    }
-
-
-
-    #elem2 {
-        position: absolute;
-        visibility: visible;
-        left: 390px;
-        top: 880px;
-        z-index: 12;
-
-    }
-
-    #elem3 {
-        position: absolute;
-        visibility: visible;
-        left: 500px;
-        top: 1000px;
-        z-index: 11;
-
-    }
-
-    #elem4 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 10;
-    }
-
-
-    #elem5 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 9;
-
-    }
-
-    #elem6 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 8; 
-
-    }
-
-    #elem7 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 7;
-    }
-    
-
-    #elem8 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 6;
-        
-    }
-
-    #elem9 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 5;
-
-    }
-
-    #elem10 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 4;
-    }
-    
-
-    #elem11 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 3;
-
-    }
-
-    #elem12 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 2;
-    }
-    
-
-
-    #elem13 {
-        position: absolute;
-        visibility: visible;
-        left: 110px;
-        top: 550px;
-        z-index: 1;
-    }
 
     /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ SLIDE IN EFFECT ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
 
