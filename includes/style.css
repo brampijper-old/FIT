@@ -51,7 +51,7 @@
 
 }
 
-/*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ WANT ICE CREAM? ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+/*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ COMPANY VALUES ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
 
 
 .companyvalues {
@@ -92,8 +92,10 @@ margin-right: -3%;
 
 
 /*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ HIRE A TRUCK  ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+
+
 .emergencybox {
-  background-color:purple;
+  background-color:#FF6D6D;
   height: 40px;
   margin-top:-2%;
 }
@@ -111,12 +113,27 @@ a:link {
 .bg-3 {
   background-color: #e6e6e6;
   margin-top:3%;
-  margin-bottom:11%;
+  margin-bottom:5%;
+  width:80%;
+}
+
+#canvas {
+    border:1px solid red;
+/*    width: 100%;*/
+}
+
+/*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ CONTACT  ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+
+.bg-5 {
+  background-color: #e6e6e6;
+  margin-top:3%;
+  margin-bottom:18%;
   width:80%;
 }
 
 .contactbox {
   background-color:#e6e6e6;
+  margin-top:6%;
 }
 
 .contactrow {
@@ -207,7 +224,7 @@ p {
 margin-top:30px
 }
 h2 {
-background-color:#FEFFED;
+background-color:#B7E2E8;
 padding:20px 35px;
 margin:-10px -50px;
 text-align:center;
