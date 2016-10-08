@@ -54,35 +54,13 @@
 /*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ WANT ICE CREAM? ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
 
 
-.emergencybox {
-  background-color:purple;
-  height: 100px;
-  margin-top:2%;
-}
-
-.emergencybox h4 {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-
-}
-
-a:link {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-
-.images {
+.companyvalues {
   margin-top:50px;
   height:auto;
   width:80%;
   background-color:#e6e6e6;
 
 }
-
-
-
 
 .overview {
   margin-top:5%;
@@ -114,10 +92,71 @@ margin-right: -3%;
 
 
 /*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ HIRE A TRUCK  ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+.emergencybox {
+  background-color:purple;
+  height: 40px;
+  margin-top:-2%;
+}
 
+.emergencybox h4 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .bg-3 {
-  background-color: yellow;
+  background-color: #e6e6e6;
   margin-top:3%;
+  margin-bottom:11%;
+  width:80%;
+}
+
+.contactbox {
+  background-color:#e6e6e6;
+}
+
+.contactrow {
+  margin-top:3%;
+  margin-bottom:3%;
+}
+
+.contacttext {
+  width:100%;
+  background-color:#474e5d;
+  padding-top:15px;
+  padding-bottom:15px;
+  color:white;
+}
+
+.hiretrucktext {
+  margin-bottom:7%;
+  margin-top:5%;
+}
+
+
+/* Flexible Google maps */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top:10%;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
