@@ -19,6 +19,16 @@
     color: #ffffff;
 }
 
+.left {
+    float: left;
+    padding: 3px 18px 3px 18px;
+    max-width: 25%;
+}
+
+a:link {
+    text-decoration: none;
+    float: right;
+}
 /*.logo img {
 	background-color: red;
 	width:auto;
