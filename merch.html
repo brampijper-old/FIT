@@ -9,6 +9,10 @@
 </head>
 <body>
 
+			<!-- <audio controls autoplay>
+				<source src="./pic/rvlong.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio> -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 	<nav class="navbar navbar-default">
@@ -107,10 +111,9 @@
 			<br>
 			<br>
 			<div class="row slideanim">
-
 				<div class="col-sm-6">
-					<img src="./pic/oreo.jpg" class="img-circle person" alt="Random Name">
-					<br><p class="side slideanim"><strong>Icecream cake?</strong><br>
+				<img src="./pic/oreo.jpg" class="img-circle person cake" alt="Random Name">
+					<br><p class="side slideanim" <strong>Icecream cake?</strong><br>
 					A hands-on, 2.5 hour session designed to help you get the best homemade icecream from scratch. Appropriate for ice lovers of all levels.<br></p><br>
 				</div>
 
@@ -119,50 +122,64 @@
 					<br><p class="side slideanim"><strong>How to make Icecream Workshops</strong><br>
 					A hands-on, 2.5 hour session designed to help you get the best homemade icecream from scratch. Appropriate for ice lovers of all levels.<br></p><br>
 				</div>
-
 			</div>
 		</div>
+			<audio>
+				<source src="./pic/rvlong.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			</audio>
 	</main>
+			
+		<footer class="container-fluid bg-4 text-center navbar-fixed-bottom">
 
-	<footer class="container-fluid bg-4 text-center navbar-fixed-bottom">
+			<a href="#"target="_blank"></a>
+			<img class="left" src="pic/twi.png"> 
+			<a href="#" target="_blank"></a>
+			<img class="left" src="pic/fb.png"> 
+			<a href="#" target="_blank"></a>
+			<img class="left" src="pic/in.png"> 
+			<!-- <a href="mailto:thefunkyicecreamtruck@gmail.com?Subject=Ice%20cream" target="_top">&nbsp; Contact Us &nbsp;| </a>  -->
+			<a href='#'> &nbsp;Faq &nbsp;| </a> 
+			<a href='#'>&nbsp; Shipping &nbsp;| </a> 
+			<a href='#'>&nbsp; Terms of use &nbsp;| </a> 
+		</footer>
 
-		<a href="#"target="_blank"></a>
-		<img class="left" src="pic/twi.png"> 
-		<a href="#" target="_blank"></a>
-		<img class="left" src="pic/fb.png"> 
-		<a href="#" target="_blank"></a>
-		<img class="left" src="pic/in.png"> 
-		<!-- <a href="mailto:thefunkyicecreamtruck@gmail.com?Subject=Ice%20cream" target="_top">&nbsp; Contact Us &nbsp;| </a>  -->
-		<a href='#'> &nbsp;Faq &nbsp;| </a> 
-		<a href='#'>&nbsp; Shipping &nbsp;| </a> 
-		<a href='#'>&nbsp; Terms of use &nbsp;| </a> 
-	</footer>
+		<script type="text/javascript" src="includes/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="includes/bootstrap.min.js"></script>
+		<script type="text/javascript" src="includes/main.js"></script>
+		<script>
+			$(window).scroll(function() {
+				$(".slideanim").each(function(){
+					var pos = $(this).offset().top;
 
-	<script type="text/javascript" src="includes/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="includes/bootstrap.min.js"></script>
-	<script type="text/javascript" src="includes/main.js"></script>
-	<script>
-		$(window).scroll(function() {
-			$(".slideanim").each(function(){
-				var pos = $(this).offset().top;
-
-				var winTop = $(window).scrollTop();
-				if (pos < winTop + 600) {
-					$(this).addClass("slide");
-				}
+					var winTop = $(window).scrollTop();
+					if (pos < winTop + 600) {
+						$(this).addClass("slide");
+					}
+				});
 			});
-		});
 
-		var jumboHeight = $('.jumbotron').outerHeight();
-		function parallax(){
-			var scrolled = $(window).scrollTop();
-			$('.bg').css('height', (jumboHeight-scrolled) + 'px');
-		}
+			var jumboHeight = $('.jumbotron').outerHeight();
+			function parallax(){
+				var scrolled = $(window).scrollTop();
+				$('.bg').css('height', (jumboHeight-scrolled) + 'px');
+			}
 
-		$(window).scroll(function(e){
-			parallax();
-		});
-	</script>
-</body>
-</html>
+			$(window).scroll(function(e){
+				parallax();
+			});
+
+			
+			$ (document ).ready(function() {
+				$('.cake').hover(function() {
+					var $this = $(this),
+					audio = $this.siblings('audio')[0]
+
+				audio.play();
+
+				});
+			});
+		</script>
+	</body>
+	</html>
 

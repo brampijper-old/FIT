@@ -131,3 +131,7 @@ main {
         -webkit-transform: translateY(0%);
     }
 }
+
+audio {
+    visibility: none;
+}
