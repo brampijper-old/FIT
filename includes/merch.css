@@ -15,8 +15,19 @@
 }
 
 .bg-4 { 
-    background-color: #2f2f2f;
+    background-color: #62eace;
     color: #ffffff;
+}
+
+.left {
+    float: left;
+    padding: 3px 18px 3px 18px;
+    max-width: 25%;
+}
+
+a:link {
+    text-decoration: none;
+    float: right; 
 }
 
 /*.logo img {
@@ -28,7 +39,38 @@
 .logo img {
     background-color:red;
     text-align:left;
+}
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ ABOUT DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+   .logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.bg {
+    background: url('../pic/col1.png') no-repeat center center;
+    position: fixed;
+    width: 100%;
+    height: 350px; /*same height as jumbotron */
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.jumbotron {
+  height: 350px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+}
+
+audio {
+    visibility: hidden;
 }
 
 /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ IMG DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
@@ -87,22 +129,3 @@ main {
         -webkit-transform: translateY(0%);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
