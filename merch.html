@@ -9,20 +9,16 @@
 </head>
 <body>
 
-			<!-- <audio controls autoplay>
-				<source src="./pic/rvlong.mp3" type="audio/mpeg">
-					Your browser does not support the audio element.
-				</audio> -->
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span> 
-				</button>
+				<nav class="navbar navbar-default">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span> 
+							</button>
  <!--       <div class ="logo">
          <img src="#"> 
      </div> -->
@@ -110,11 +106,15 @@
 			<hr>
 			<br>
 			<br>
-			<div class="row slideanim">
-				<div class="col-sm-6">
-				<img src="./pic/oreo.jpg" class="img-circle person cake" alt="Random Name">
-					<br><p class="side slideanim" <strong>Icecream cake?</strong><br>
+			<div id='videoHolder' class="row slideanim">
+				<div class="col-sm-6"> 
+					<img src="./pic/oreo.jpg" class="img-circle person" alt="Random Name">
+					<br><p class="side slideanim"><strong>Icecream cake?</strong><br>
 					A hands-on, 2.5 hour session designed to help you get the best homemade icecream from scratch. Appropriate for ice lovers of all levels.<br></p><br>
+					<audio preload="auto">
+						<source src="./pic/rvlong.mp3" type="audio/mpeg"></source>
+						Your browser does not support the audio element.
+					</audio>
 				</div>
 
 				<div class="col-sm-6">
@@ -124,62 +124,56 @@
 				</div>
 			</div>
 		</div>
-			<audio>
-				<source src="./pic/rvlong.mp3" type="audio/mpeg">
-					Your browser does not support the audio element.
-			</audio>
+
 	</main>
-			
-		<footer class="container-fluid bg-4 text-center navbar-fixed-bottom">
 
-			<a href="#"target="_blank"></a>
-			<img class="left" src="pic/twi.png"> 
-			<a href="#" target="_blank"></a>
-			<img class="left" src="pic/fb.png"> 
-			<a href="#" target="_blank"></a>
-			<img class="left" src="pic/in.png"> 
-			<!-- <a href="mailto:thefunkyicecreamtruck@gmail.com?Subject=Ice%20cream" target="_top">&nbsp; Contact Us &nbsp;| </a>  -->
-			<a href='#'> &nbsp;Faq &nbsp;| </a> 
-			<a href='#'>&nbsp; Shipping &nbsp;| </a> 
-			<a href='#'>&nbsp; Terms of use &nbsp;| </a> 
-		</footer>
+	<footer class="container-fluid bg-4 text-center navbar-fixed-bottom">
 
-		<script type="text/javascript" src="includes/jquery-3.1.1.min.js"></script>
-		<script type="text/javascript" src="includes/bootstrap.min.js"></script>
-		<script type="text/javascript" src="includes/main.js"></script>
-		<script>
-			$(window).scroll(function() {
-				$(".slideanim").each(function(){
-					var pos = $(this).offset().top;
+		<a href="#"target="_blank"></a>
+		<img class="left" src="pic/twi.png"> 
+		<a href="#" target="_blank"></a>
+		<img class="left" src="pic/fb.png"> 
+		<a href="#" target="_blank"></a>
+		<img class="left" src="pic/in.png"> 
+		<!-- <a href="mailto:thefunkyicecreamtruck@gmail.com?Subject=Ice%20cream" target="_top">&nbsp; Contact Us &nbsp;| </a>  -->
+		<a href='#'> &nbsp;Faq &nbsp;| </a> 
+		<a href='#'>&nbsp; Shipping &nbsp;| </a> 
+		<a href='#'>&nbsp; Terms of use &nbsp;| </a> 
+	</footer>
 
-					var winTop = $(window).scrollTop();
-					if (pos < winTop + 600) {
-						$(this).addClass("slide");
-					}
-				});
+	<script type="text/javascript" src="includes/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="includes/bootstrap.min.js"></script>
+	<script type="text/javascript" src="includes/main.js"></script>
+	<script>
+		$(window).scroll(function() {
+			$(".slideanim").each(function(){
+				var pos = $(this).offset().top;
+
+				var winTop = $(window).scrollTop();
+				if (pos < winTop + 600) {
+					$(this).addClass("slide");
+				}
 			});
+		});
 
-			var jumboHeight = $('.jumbotron').outerHeight();
-			function parallax(){
-				var scrolled = $(window).scrollTop();
-				$('.bg').css('height', (jumboHeight-scrolled) + 'px');
-			}
+		var jumboHeight = $('.jumbotron').outerHeight();
+		function parallax(){
+			var scrolled = $(window).scrollTop();
+			$('.bg').css('height', (jumboHeight-scrolled) + 'px');
+		}
 
-			$(window).scroll(function(e){
-				parallax();
-			});
+		$(window).scroll(function(e){
+			parallax();
+		});
 
-			
-			$ (document ).ready(function() {
-				$('.cake').hover(function() {
-					var $this = $(this),
-					audio = $this.siblings('audio')[0]
 
-				audio.play();
-
-				});
-			});
-		</script>
-	</body>
-	</html>
+		$(function(){
+			$('#videoHolder').hover(
+				function() {	$("audio")[0].play();},
+				function() {	$("audio")[0].pause();}
+				)
+		});
+	</script>
+</body>
+</html>
 
