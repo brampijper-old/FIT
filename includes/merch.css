@@ -85,6 +85,8 @@ audio {
 }
 .person:hover {
     border-color: #f1f1f1;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
 
 /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ BODY ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
