@@ -151,6 +151,15 @@ main {
     z-index: 14;
 }
 
+#container
+{
+    height:1400px;    
+}
+
+.hideme {
+    opacity:0;
+}
+
 @media screen and (max-width: 1000px) {
     #elem0 {
         visibility: hidden;
