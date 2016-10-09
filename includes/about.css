@@ -151,6 +151,11 @@ main {
     z-index: 14;
 }
 
+@media screen and (max-width: 1000px) {
+    #elem0 {
+        visibility: hidden;
+    }
+
 
 /*-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ SLIDE IN EFFECT ~~~~~~~~~~~~~~~~~~~~~~~~~~ --*/
 
