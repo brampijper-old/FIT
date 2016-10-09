@@ -1,0 +1,147 @@
+/*	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+
+main {
+	height: auto;
+	margin-bottom:80px;
+}
+
+
+/*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+/*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ FLAVOR CONTENT ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+
+h3 {
+	/*padding-bottom: 40px;*/
+}
+
+.color1 {
+	background-color:white;
+	height:450px;
+}
+
+
+.fruits {
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+
+}
+
+#flTitle {
+	opacity: 0.8;
+}
+/*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ SERVICE ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
+
+
+.service {
+	height: auto;
+	background-color:#f2f2f2; 
+	margin-top:50px;
+}
+
+.serviceBox {
+	margin: 0 auto;
+}
+
+.events {
+	margin-top:25px;
+}
+
+.events img {
+	margin-top:25px;
+	margin-bottom:30px;
+	margin-left:5px;
+}
+
+.events h3 {
+	margin-top:25px;
+	margin-bottom:20px;
+}
+
+.events p {
+	margin-left: 10px;
+	margin-right:10px;
+}
+
+/*.color1 h2 {
+	  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}*/
+
+/*.color2 {
+	background-color:white;
+	height:300px;
+
+}
+
+.color3 {
+	background-color:white;
+	height:300px;
+}
+*/
+
+/*.flavors {
+	background-color:grey;
+	height:500px;
+	margin-top:10px;
+}
+*/
+/*.nav-tabs  a {
+	color: red;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline;
+     zoom:1;
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.strawberryBG {
+	background-color: #d42426;
+	height:400px; 
+}
+.red {
+	background-color:cyan;
+}
+
+.lemonBG {
+	background-color:#FFD80A;
+	height:400px;
+}
+
+.chocolateBG {
+	background-color: #836953;
+	height:400px;
+}
+
+.mangoBG {
+	background-color: #febb16;
+	height:400px;
+}
