@@ -43,18 +43,17 @@
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ POP EMERGENCY ICE ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 <div id="abc">
-<canvas id="canvas" style="width: 100%;"></canvas>
+<canvas id="canvas" style="width: 100%; height: 100%;"></canvas>
   <!-- Popup Div Starts Here -->
   <div id="popupContact">
     <!-- Contact Us Form -->
     <form action="#" id="form" method="post" name="form">
-      <img id="close" src="pic/close.png" style="max-width: 10%" onclick ="div_hide()">
       <h2>Emergency Ice cream</h2>
       <hr>
       <input id="name" name="name" placeholder="Name" type="text">
       <input id="email" name="email" placeholder="Email" type="text">
       <textarea id="msg" name="message" placeholder="Message"></textarea>
-      <a href="javascript:%20check_empty()" id="submit">Send</a>
+      <a onclick ="div_hide()" id="submit">Close</a>
     </form>
   </div>
   <!-- Popup Div Ends Here -->

@@ -21,17 +21,33 @@ $(document).ready(function() {
 });
 
 
+var showFallingCones = false; 
+
 //Function To Display Popup
 function div_show() {
 document.getElementById('abc').style.display = "block";
+showFallingCones = true;
+stopAnimation(); 
+
 }
 //Function to Hide Popup
 function div_hide(){
 document.getElementById('abc').style.display = "none";
+showFallingCones = false; 
+stopAnimation(); 
+
 }
 
-
-
+function stopAnimation () {
+    console.log(showFallingCones)
+//start animating falling icecreams
+if (showFallingCones == true) {
+    animateCones();
+    spawnRandomObject(); 
+} else {
+    return; 
+}
+}
 
 
 
@@ -44,9 +60,6 @@ var spawnLineY = 0;
 
 // spawn a new object every 1500ms
 var spawnRate = 1500;
-
-// set how fast the objects will fall
-var spawnRateOfDescent = 1.0;
 
 // when was the last object spawned
 var lastSpawn = -1;
@@ -68,15 +81,6 @@ img3.src = "pic/blueice.png";
 
 // Our images array
 var images = [img1, img2, img3];
-
-// start animating
-window.onload=function(){
-animate();
-}
-
-
-
-console.log(images)
 
 function spawnRandomObject() {
 
@@ -112,7 +116,7 @@ function spawnRandomObject() {
 
 
 
-function animate() {
+function animateCones() {
 
     // get the elapsed time
     var time = Date.now();
@@ -124,7 +128,7 @@ function animate() {
     }
 
     // request another animation frame
-    requestAnimationFrame(animate);
+    requestAnimationFrame(animateCones);
 
     // clear the canvas so all objects can be 
     // redrawn in new positions
@@ -132,15 +136,16 @@ function animate() {
     
     // draw the line where new objects are spawned
     ctx.beginPath();
-    ctx.moveTo(0, spawnLineY);
-    ctx.lineTo(canvas.width, spawnLineY);
+    ctx.moveTo(10.5, 0);
+    ctx.lineTo(30, 30);
     ctx.stroke();
     
     // move each object down the canvas
     for (var i = 0; i < objects.length; i++) {
+        var spawnRateOfDescent = 1.0;
         var object = objects[i];
         object.y += spawnRateOfDescent;
-        ctx.drawImage(object.image, object.x, object.y, 30, 30);
+        ctx.drawImage(object.image, object.x, object.y, 45, 45);
     }
 
 }

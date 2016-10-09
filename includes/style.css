@@ -117,11 +117,6 @@ a:link {
   width:80%;
 }
 
-#canvas {
-    border:1px solid red;
-/*    width: 100%;*/
-}
-
 /*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ CONTACT  ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
 
 .bg-5 {
@@ -196,12 +191,6 @@ overflow:auto;
 z-index: 5;
 }
 
-img#close {
-position:absolute;
-right:-14px;
-top:-14px;
-cursor:pointer
-}
 div#popupContact {
 position:absolute;
 left:50%;
@@ -211,8 +200,8 @@ font-family:'Raleway',sans-serif
 z-index: 5;
 }
 form {
-max-width:450px;
-min-width:250px;
+max-width:350px;
+min-width:200px;
 padding:10px 50px;
 border:2px solid gray;
 border-radius:10px;
@@ -240,23 +229,17 @@ width:82%;
 padding:10px;
 margin-top:30px;
 border:1px solid #ccc;
-padding-left:40px;
+padding-left:20px;
 font-size:16px;
 font-family:raleway
 }
 #name {
-background-image:url(../images/name.jpg);
-background-repeat:no-repeat;
 background-position:5px 7px
 }
 #email {
-background-image:url(../images/email.png);
-background-repeat:no-repeat;
 background-position:5px 7px
 }
 textarea {
-background-image:url(../images/msg.png);
-background-repeat:no-repeat;
 background-position:5px 7px;
 width:82%;
 height:95px;
@@ -264,7 +247,7 @@ padding:10px;
 resize:none;
 margin-top:30px;
 border:1px solid #ccc;
-padding-left:40px;
+padding-left:20px;
 font-size:16px;
 font-family:raleway;
 margin-bottom:30px
@@ -287,7 +270,7 @@ color:red;
 font-weight:700
 }
 button {
-width:10%;
+width:9%;
 height:45px;
 border-radius:3px;
 background-color:#cd853f;
