@@ -1,39 +1,7 @@
-<<<<<<< HEAD
-var yellow = $(".color1")
-var red = $(".color2")
-var green = $(".color3")
-var speed = 2000;
-
-function colorAnimate () {
- $(".fruits").text("Mango")
- $(yellow).animate({'background-color': '#FBDB0C'}, speed, function(){ 
-
- $(".fruits").text("Forest Fruits");
- $(yellow).animate({'background-color': '#6666cc'}, speed, function(){  //fruit of the forest
-
- $(".fruits").text("Strawberry");
- $(yellow).animate({'background-color': '#ff4d4d'}, speed, function(){ //strawberry
-                
- $(".fruits").text("Lemon");
- $(yellow).animate({'background-color': '#B0FC23'}, speed, function(){ //lemon
-                      
- $(".fruits").text("Orange");
- $(yellow).animate({'background-color': '#F7882F'}, speed, function(){ //orange
-
- colorAnimate();
- });
- }); 
- }); 
- }); 
- });
-}
-colorAnimate(); 
-=======
 $(document).ready(function() {
     $("#firstLine").hide();
     $("#secondLine").hide();
     $("#thirdLine").hide();
-
 
     $("#truck").animate({marginLeft: "+=50%"}, 3000);
 
@@ -49,6 +17,37 @@ $(document).ready(function() {
         $("#thirdLine").slideDown('slow');
     }, 6500)
 
+//flavor color changer banner
+    var yellow = $(".color1")
+    var red = $(".color2")
+    var green = $(".color3")
+    var speed = 2000;
+
+    function colorAnimate () {
+         $(".fruits").text("Mango")
+         $(yellow).animate({'background-color': '#FBDB0C'}, speed, function(){ 
+
+         $(".fruits").text("Forest Fruits");
+         $(yellow).animate({'background-color': '#6666cc'}, speed, function(){  //fruit of the forest
+
+         $(".fruits").text("Strawberry");
+         $(yellow).animate({'background-color': '#ff4d4d'}, speed, function(){ //strawberry
+                        
+         $(".fruits").text("Lemon");
+         $(yellow).animate({'background-color': '#B0FC23'}, speed, function(){ //lemon
+                              
+         $(".fruits").text("Orange");
+         $(yellow).animate({'background-color': '#F7882F'}, speed, function(){ //orange
+
+         colorAnimate();
+         });
+         }); 
+         }); 
+         }); 
+         });
+    }
+    colorAnimate(); 
+
 });
 
 
@@ -56,16 +55,16 @@ var showFallingCones = false;
 
 //Function To Display Popup
 function div_show() {
-document.getElementById('abc').style.display = "block";
-showFallingCones = true;
-stopAnimation(); 
+    document.getElementById('abc').style.display = "block";
+    showFallingCones = true;
+    stopAnimation(); 
 
 }
 //Function to Hide Popup
 function div_hide(){
-document.getElementById('abc').style.display = "none";
-showFallingCones = false; 
-stopAnimation(); 
+    document.getElementById('abc').style.display = "none";
+    showFallingCones = false; 
+    stopAnimation(); 
 
 }
 
@@ -180,7 +179,3 @@ function animateCones() {
     }
 
 }
-
-
-
->>>>>>> master

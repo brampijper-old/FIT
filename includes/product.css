@@ -24,8 +24,19 @@ main {
 /*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
 
 .bg-4 { 
-    background-color: #2f2f2f;
+    background-color: #62eace;
     color: #ffffff;
+}
+
+.left {
+    float: left;
+    padding: 3px 18px 3px 18px;
+    max-width: 25%;
+}
+
+a:link {
+    text-decoration: none;
+    float: right;
 }
 
 /*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ FLAVOR CONTENT ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/

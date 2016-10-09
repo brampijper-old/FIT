@@ -29,17 +29,6 @@ a:link {
     text-decoration: none;
     float: right;
 }
-/*.logo img {
-	background-color: red;
-	width:auto;
-	margin-left:-80px;
-    }*/
-
-    .logo img {
-       background-color:red;
-       text-align:left;
-
-   }
 
    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ ABOUT DIV ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
    .logo {
