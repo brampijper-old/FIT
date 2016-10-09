@@ -151,11 +151,6 @@ main {
     z-index: 14;
 }
 
-#container
-{
-    height:1400px;    
-}
-
 .hideme {
     opacity:0;
 }
