@@ -1,0 +1,27 @@
+{
+  "name": "business-website",
+  "version": "0.0.1",
+  "description": "A test to host the website on my localhost",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brampijper/FIT.git"
+  },
+  "keywords": [
+    "assignment",
+    "test",
+    "hosting"
+  ],
+  "author": "Bram Pijper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brampijper/FIT/issues"
+  },
+  "homepage": "https://github.com/brampijper/FIT#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
