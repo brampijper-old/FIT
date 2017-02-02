@@ -1,0 +1,27 @@
+{
+  "name": "fit",
+  "version": "0.0.1",
+  "description": "nodeje biz website",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brampijper/FIT.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "business"
+  ],
+  "author": "bram and elisabeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brampijper/FIT/issues"
+  },
+  "homepage": "https://github.com/brampijper/FIT#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
