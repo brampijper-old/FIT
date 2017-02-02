@@ -45,7 +45,7 @@ h3 {
 	/*padding-bottom: 40px;*/
 }
 
-.color1 {
+/*.color1 {
 	background-color:white;
 	height:450px;
 }
@@ -60,7 +60,23 @@ h3 {
 
 #flTitle {
 	opacity: 0.8;
+}*/
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
 }
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
 /*  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ SERVICE ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->*/
 
 
